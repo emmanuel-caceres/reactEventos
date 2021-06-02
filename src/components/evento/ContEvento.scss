@@ -1,0 +1,163 @@
+.evento{
+    display: flex;
+    justify-content: space-around;
+    background-color: #eee;
+    padding: 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 15px rgba($color: #444, $alpha: 0.7);
+    transition: all 0.5s;
+
+    .botonera{
+        background-color: #444;
+        width: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 10px 0px 0px 10px;
+    }
+}
+
+.evento__btnBorrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    border: none;
+    background: none;
+    color: white;
+
+    &:hover{
+        background-color: red;
+        border-radius: 10px 0px 0px 0px;
+        font-weight: bolder;
+    }
+}
+
+.evento__btnEditar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    border: none;
+    background: none;
+    color: white;
+
+    &:hover{
+        background-color: green;
+        border-radius: 0px 0px 0px 10px;
+        font-weight: bolder;
+    }
+}
+
+.evento__ctitulo{
+    width: 85%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    h3{
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+.evento__cfecha{
+    width: 15%;
+    background-color: #444;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.newButton{
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba($color: #444, $alpha: 0.3);
+    width: 180px;
+
+
+    &:hover{
+        font-weight: bold;
+        animation: frio;
+        animation-duration: 0.5s;
+    }
+
+    .newEvent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.contEvento{
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    height: 100%;
+    min-height: 90vh;
+}
+
+@keyframes frio {
+    25%{
+        transform: rotate(5deg);
+    }
+
+    50%{
+        transform: rotate(-5deg);
+    }
+}
+
+//btn newEvent
+
+.newEvent{
+        color: black;
+        text-decoration: none;
+}
+
+// Tituto Evento
+
+.tituloEvento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.btnNewEvento{
+    position: fixed;
+    z-index: 999;
+    right: 60px;
+}
+
+@media (max-width: 991px) {
+    .btnNewEvento {
+        bottom: 50px;
+    }
+}
+
+.cargandoEventos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}

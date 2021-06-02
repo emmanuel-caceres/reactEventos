@@ -1,0 +1,84 @@
+.contAgenda{
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    height: 100%;
+    min-height: 90vh;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.agenda{
+    background-color: rgba($color: #444, $alpha: 0.5);
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 20px 0px;
+    border-radius: 10px;
+    height: 90vh;
+
+    .contContactos {
+        overflow-y:scroll;
+    }
+
+
+    h4{
+        text-align: center;
+    }
+}
+
+.contactos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 7px 5px;
+    background-color: #eee;
+
+    h4{
+        width: 35px;
+        text-align: center;
+    }
+
+    .datosContacto{
+        margin-left: 20px;
+        width: 100%;
+
+        h6{
+            margin: 0%;
+            padding: 0%;
+        }
+    
+        p{
+            margin: 0%;
+            padding: 0%;
+        }
+    }
+
+    .btnBorrarContacto{
+        align-self: flex-start;
+        padding: 2px;
+
+        button{
+            border: none;
+
+            &:hover{
+                background-color: #444;
+                border-radius: 5px;
+                font-weight: bolder;
+                color: white;
+            }
+        }
+    }
+
+}
+
+.rowContactos {
+    display: flex;
+    justify-content: space-around;
+}

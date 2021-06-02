@@ -1,0 +1,42 @@
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.menuNav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba($color: #444, $alpha: 0.5);
+
+    .menuItem {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    .menuNav__Link{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.3s;
+        padding: 0px 30px;
+
+        &:hover{
+            font-weight: bolder;
+            text-decoration: none;
+        }
+    }
+}
+
+@media (max-width: 991px ){
+
+    .menuNav {
+        justify-content: space-between;
+    }
+    .menuNav__Link {
+        font-size: 40px;
+    }
+}
