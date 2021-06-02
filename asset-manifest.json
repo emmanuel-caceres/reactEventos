@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/reactEventos/static/css/main.84de8701.chunk.css",
+    "main.js": "/reactEventos/static/js/main.c8ae38ed.chunk.js",
+    "main.js.map": "/reactEventos/static/js/main.c8ae38ed.chunk.js.map",
+    "runtime-main.js": "/reactEventos/static/js/runtime-main.15cac204.js",
+    "runtime-main.js.map": "/reactEventos/static/js/runtime-main.15cac204.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/reactEventos/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.68db73f3.chunk.js": "/reactEventos/static/js/2.68db73f3.chunk.js",
+    "static/js/2.68db73f3.chunk.js.map": "/reactEventos/static/js/2.68db73f3.chunk.js.map",
+    "static/js/3.d5a8d3a7.chunk.js": "/reactEventos/static/js/3.d5a8d3a7.chunk.js",
+    "static/js/3.d5a8d3a7.chunk.js.map": "/reactEventos/static/js/3.d5a8d3a7.chunk.js.map",
+    "index.html": "/reactEventos/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/reactEventos/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.84de8701.chunk.css.map": "/reactEventos/static/css/main.84de8701.chunk.css.map",
+    "static/js/2.68db73f3.chunk.js.LICENSE.txt": "/reactEventos/static/js/2.68db73f3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15cac204.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.68db73f3.chunk.js",
+    "static/css/main.84de8701.chunk.css",
+    "static/js/main.c8ae38ed.chunk.js"
+  ]
+}
